@@ -1,0 +1,20 @@
+#to convert length into different conversions
+feet=float(input("enter the length:"))
+print("1.inches,2.yards,3.miles,4.millimeters,5.centimeters,6.meters,7.kilometers")
+choice=int(input("enetr you choice"))
+if(choice==1):
+    print("feet to inches=",feet*12)
+elif(choice==2):
+    print("feet to yards=",feet/3)
+elif(choice==3):
+    print("feet to miles=",feet/5280)
+elif(choice==4):
+    print("feet to millimeters=",feet*305)
+elif(choice==5):
+    print("feet to centimeters=",feet*30.48)
+elif(choice==6):
+    print("feet to meters=",feet/3.281)
+elif(choice==7):
+    print("feet to kilometers=",feet/3281)
+else:
+    print("invalid choice")

@@ -1,0 +1,4 @@
+#to convert weights in pounds
+weight=float(input("enter the weight in kilograms:"))
+pounds=weight*2.2
+print("the wight in pounds=",pounds)

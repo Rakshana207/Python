@@ -1,0 +1,10 @@
+#To check the given conditions and print it
+exp=input("enter an algebraic expression:")
+i=0
+finalexp=[]
+while i<len(exp):
+    finalexp.append(exp[i])
+    if(exp[i].isalpha() and (exp[i+1].isnumeric() or exp[i+1]=='(')) or(exp[i].isnumeric() and(exp[i+1].isalpha() or exp[i+1]=='(')):
+        finalexp.append('*')
+    i+=1
+print("the algebraic expression is ",' '.join(finalexp))

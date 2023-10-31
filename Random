@@ -1,0 +1,16 @@
+#To check the number in between or not
+import random
+smaller=int(input("enter a number:"))
+larger=int(input("enter a number:"))
+my_num=random.randint(smaller,larger)
+count=0
+while True:
+    count+=1
+    usernum=int(input("enter a number"))
+    if my_num<usernum:
+        print("too small")
+    elif my_num>usernum:
+        print("too large")
+    else:
+        print("congratulations you got it",count,"tries")
+        break

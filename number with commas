@@ -1,0 +1,3 @@
+#To print a number with separated commas
+num=int(input("enter a number;"))
+print("the formatting number with comma separation:"+'{:,}'.format(num))

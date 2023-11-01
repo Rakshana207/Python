@@ -1,0 +1,14 @@
+#to print average,small,large even and odd
+import random
+numlist=[random.randint(1,100) for i in range(20)]
+print("the list is :",numlist)
+numset=list(sorted(numlist))
+print("the sorted list is:",numset)
+average=sum(numlist)/len(numlist)
+print("the average of elements in the list:",average)
+print("the largest number is:",numset[-1],"the smallest number is:",numset[0])
+count=0
+for i in (numlist):
+    if(i%2==0):
+        count+=1
+print("even numer is:",count)

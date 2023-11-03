@@ -1,0 +1,8 @@
+#to check strings are same or not
+s1,s2=input("enter two strings separated with space").split()
+if(len(s1)!=len(s2)):
+    print("the strings are not have same length")
+else:
+    l=len(s1)
+    for i in range (l):
+        print(s1[i],s2[i],sep=" ",end=" ")

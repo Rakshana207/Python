@@ -1,0 +1,5 @@
+#to print a word how many time you want
+name=input("enter a name:")
+n=int(input("enter a name how many times to print"))
+for i in range(0,n,1):
+      print(name,end=" ")
